@@ -103,5 +103,5 @@ tests/window
 tests/windows
 
 # Premake files
-bin/
-obj/
+*.filters
+*.user
