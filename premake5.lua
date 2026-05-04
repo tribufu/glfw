@@ -7,6 +7,8 @@ project "Glfw"
     language "C"
     warnings "Off"
 
+    removeplatforms { "Any CPU" }
+
     files
     {
         "include/GLFW/glfw3.h",
