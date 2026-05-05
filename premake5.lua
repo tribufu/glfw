@@ -66,8 +66,7 @@ project "Glfw"
             "src/egl_context.c",
             "src/nsgl_context.m",
             "src/osmesa_context.c",
-            "src/posix_module.c",
-            "src/posix_thread.c",
+            "src/posix_*.c",
         }
 
         defines
@@ -86,10 +85,7 @@ project "Glfw"
             "src/glx_context.c",
             "src/linux_joystick.c",
             "src/osmesa_context.c",
-            "src/posix_module.c",
-            "src/posix_module.c",
-            "src/posix_thread.c",
-            "src/posix_time.c",
+            "src/posix_*.c",
             "src/x11_init.c",
             "src/x11_monitor.c",
             "src/x11_window.c",
