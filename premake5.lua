@@ -1,7 +1,6 @@
 --- @diagnostic disable: undefined-global, undefined-field, lowercase-global
 
 project "Glfw"
-    targetname "glfw"
     location "."
     kind "StaticLib"
     language "C"
