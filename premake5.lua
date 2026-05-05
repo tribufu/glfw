@@ -57,11 +57,8 @@ project "Glfw"
 
         files
         {
-            "src/cocoa_init.m",
-            "src/cocoa_joystick.m",
-            "src/cocoa_monitor.m",
-            "src/cocoa_time.c",
-            "src/cocoa_window.m",
+            "src/cocoa_*.c",
+            "src/cocoa_*.m",
             "src/egl_context.c",
             "src/nsgl_context.m",
             "src/osmesa_context.c",
