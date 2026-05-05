@@ -57,9 +57,11 @@ project "Glfw"
 
         files
         {
-            "src/cocoa_*.c",
+            "src/cocoa_*.h",
             "src/cocoa_*.m",
             "src/egl_context.c",
+            "src/macos_*.c",
+            "src/macos_*.h",
             "src/nsgl_context.m",
             "src/osmesa_context.c",
             "src/posix_*.c",
